@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+input[type = text] {
+  height: 40%;
+  width: 80%;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.calculator {
+  display: grid;
+  grid-template-rows: 100px 70px 70px 80px 70px 70px 50px 70px;
+  width: 400px;
+  height: 600px;
+  background-color: #8585ad;
+}
+
+.header {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.total-bill {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  text-align: center;
+}
+
+.totalText {
+  padding-top: 8px;
+  margin-left: 20px;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  text-align: center;
+}
+
+.serviceText {
+  margin-left: 20px;
+}
+
+.serviceSelect {
+  width: 75%;
+  height: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-family: avenir;
+  font-weight: bold;
+}
+
+.numberOfPeople {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.peopleText {
+  color: white;
+  font-weight: bold;
+  font-family: avenir;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.peopleClass {
+  margin-top: 10%;
+}
+
+.submit {
+  text-align: center;
+}
+.btn {
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+  grid-template-columns: 50% 50%;
+  background-color: #99ffbb;
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0;
+  border: none;
+  margin-left: 5px;
+  margin-top: 5%;
+}
+
+.tipAmount {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  display: grid;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.totalTip {
+  color: white;
+  font-family: avenir;
+  font-weight: bold;
+  display: grid;
+  justify-content: center;
+}
